@@ -1,0 +1,52 @@
+body{
+	background-color:  #52595D; 
+	font-size: 1em/1.5 sans-serif;
+	}
+	h1{text-align: center; font-size: 50; color: steelblue;}
+	form {margin: 2px auto; 
+		width: 320px;
+		color: steelblue;}
+		input{padding: 10px;
+			font-size: inherit;}
+			input[type="text"]{display: block;
+				margin-bottom: 25px;
+				width: 100%;
+				border: 10px solid steelblue;}
+				input[type="Last Name"]{display: block;
+				margin-bottom: 25px;
+				width: 100%;
+				border: 10px solid steelblue;}
+				input[type="Email"]{display: block;
+				margin-bottom: 25px;
+				width: 100%;
+				border: 10px solid steelblue;}
+				input[type="Password"]{display: block;
+				margin-bottom: 25px;
+				width: 100%;
+				border: 10px solid steelblue;}
+				input[type="Confirm Password"]{display: block;
+				margin-bottom: 25px;
+				width: 100%;
+				border: 10px solid steelblue;}
+				input type="radio"]{ margin: 0 8px 25px 18px; }
+        input[type="radio"]:first-child { margin-left: 80; }
+        button: focus {
+width: 344px;
+height: 50px;
+background: white;
+border: steelblue;
+color: steelblue;
+background: white;
+}
+button{
+width: 344px;
+height: 50px;
+border: none;
+background: steelblue; 
+color: white;
+}
+input:focus {
+  background: white;
+}
+input[type="radio"]:checked + label { font-weight: bold; font-size: 18px;
+}
